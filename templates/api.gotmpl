@@ -257,7 +257,7 @@ func (s *Server) RunWithSigHandler(shutdown ...func() error) error {
 // to make it easier to use https://github.com/appleboy/gofight
 func GinEngine(svc Service, config *Config) *gin.Engine {
     server := NewServer(svc, config)
-    server.ConfigureRoutes()
+    server.configureRoutes()
     return server.Routes.Engine
 }
 // vim: ft=go
