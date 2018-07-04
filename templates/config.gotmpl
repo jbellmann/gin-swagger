@@ -24,6 +24,7 @@ type Config struct {
 	Tracer            opentracing.Tracer
 }
 
+// WithDefaultFlags only has one default for 'address'
 func (c *Config) WithDefaultFlags() *Config {
 	kingpin.Flag("debug", "Enable debug logging and pprof metrics.").BoolVar(&c.Debug)
 	kingpin.Flag("address", "Address to listen on, e.g. :8080 or 0.0.0.0:8080.").
