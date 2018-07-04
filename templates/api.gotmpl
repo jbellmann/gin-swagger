@@ -14,10 +14,10 @@ import (
 	"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
 	ginoauth2 "github.com/zalando/gin-oauth2"
-	"github.com/mikkeloscar/gin-swagger/middleware"
-	"github.com/mikkeloscar/gin-swagger/api"
+	"github.com/jbellmann/gin-swagger/middleware"
+	"github.com/jbellmann/gin-swagger/api"
 	log "github.com/sirupsen/logrus"
-	"github.com/mikkeloscar/gin-swagger/tracing"
+	"github.com/jbellmann/gin-swagger/tracing"
 	opentracing "github.com/opentracing/opentracing-go"
 	{{range .DefaultImports}}{{printf "%q" .}}
 	{{end}}

@@ -10,11 +10,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/runtime"
-	"github.com/mikkeloscar/gin-swagger/api"
+	"github.com/jbellmann/gin-swagger/api"
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	models "github.com/mikkeloscar/gin-swagger/example/models"
+	models "github.com/jbellmann/gin-swagger/example/models"
 )
 
 // CreateClusterEndpoint executes the core logic of the related

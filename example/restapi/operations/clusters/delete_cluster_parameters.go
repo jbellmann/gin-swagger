@@ -9,7 +9,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/validate"
-	"github.com/mikkeloscar/gin-swagger/api"
+	"github.com/jbellmann/gin-swagger/api"
 
 	strfmt "github.com/go-openapi/strfmt"
 )
